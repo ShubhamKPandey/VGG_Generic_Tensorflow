@@ -12,5 +12,5 @@ It is primarily made up of a series of Conv2D layers followed by a softmax activ
 After block 'e', we add the following layers:
 
 * flatten
-* fc: create a fully connected layer using[Dense](https://keras.io/api/layers/core_layers/dense/)
+* fc: create a fully connected layer using
 * classifier: create the classifier using a Dense layer. The number of units equals the number of classes. For multi-class classification, use a`'softmax'` activation
